@@ -39,7 +39,7 @@ php artisan serve
 "cart" : "T-shirt T-shirt shoes",
 "currency" : "EGP"
 }
-
+```
 - Optional to add the currency.
 - feel free to change the products in the cart.
 
