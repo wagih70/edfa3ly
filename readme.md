@@ -11,7 +11,7 @@ Solution:
 - Arranging the API response as requested.
 
 Architecture:
-- Laravel 5.8 was my choice because of its Architectural Model-View-Controller Pattern which make the project very clean, has DB Migrations and neat Directory structure.
+- Architectural Model-View-Controller Pattern using Laravel 5.8 gave a better implementation for the Restful API and gave an opportunity to use Frontend templates supported by Laravel (Blade) if needed in the future.
 
 ## How to run the project
 
@@ -21,8 +21,8 @@ DB_DATABASE=edfa3ly
 DB_USERNAME=YOUR USERNAME
 DB_PASSWORD=YOUR PASSWORD
 ```
-- Import [edfa3ly.sql] file inside the project.
-- open your terminal in the directory that you have the project.
+- Import [edfa3ly.sql] file from inside the project.
+- open your terminal in the directory where you have the project.
 - type in terminal 
 ```bash
 cd edfa3ly
@@ -45,7 +45,7 @@ php artisan serve
 
 ## How to test your project
 
-- open your terminal in the directory that you have the project.
+- open your terminal in the directory where you have the project.
 - type in terminal 
 ```bash
 cd edfa3ly
@@ -69,4 +69,4 @@ The root folder has
 
 ## Comments
 
-- It could be a better implementation if we used a paid account for accessing currency rate and also we can get currencies sympols not only "EGP" or "USD".
+- It could be a better implementation if we used a paid account for accessing currency rate and also we can get currencies symbols.
