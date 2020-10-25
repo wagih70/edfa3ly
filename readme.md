@@ -15,38 +15,38 @@ Architecture:
 
 ## How to run the project
 
-1- Open the project code and update .env file as follows:
+- Open the project code and update .env file as follows:
 ```
 DB_DATABASE=edfa3ly
 DB_USERNAME=YOUR USERNAME
 DB_PASSWORD=YOUR PASSWORD
 ```
-2- Import [edfa3ly.sql] file inside the project.
-3- open your terminal in the directory that you have the project.
-4- type in terminal 
+- Import [edfa3ly.sql] file inside the project.
+- open your terminal in the directory that you have the project.
+- type in terminal 
 ```bash
 cd edfa3ly
 php artisan serve
 ```
-5- open postman and run this route with GET request:
+- open postman and run this route with GET request:
 	"localhost:8000/"
 	Now you can check all available products.
-6- open postman and run this route with POST request:
+- open postman and run this route with POST request:
 	"localhost:8000/"
-	1- insert in the body:
+    - insert in the body:
 ``` php
 {
 "cart" : "T-shirt T-shirt shoes",
 "currency" : "EGP"
 }
-```	
-	2- Optional to add the currency.
-	3- feel free to change the products in the cart.
+
+- Optional to add the currency.
+- feel free to change the products in the cart.
 
 ## How to test your project
 
-1- open your terminal in the directory that you have the project.
-2- type in terminal 
+- open your terminal in the directory that you have the project.
+- type in terminal 
 ```bash
 cd edfa3ly
 vendor/bin/phpunit
